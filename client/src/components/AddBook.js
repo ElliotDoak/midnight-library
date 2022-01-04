@@ -40,7 +40,7 @@ class AddBook extends Component {
         authorId: this.state.authorId,
       },
       refetchQueries: [{ query: getBooksQuery }],
-    }); // adds a book, but with no values
+    });
   }
   render() {
     return (
